@@ -1151,6 +1151,7 @@ a {
   #services-section .services-header {
     text-align: center;
     padding-top: 50px !important;
+    padding-bottom: 30px
     width: 750px;
     max-width: 100%;
     margin: 0 auto; }
@@ -1674,7 +1675,7 @@ a {
 }
 
 .hover-zoom:hover {
-  transform: scale(1.1);
+  transform: scale(1.065);
 }
 
 .hover-zoom-sml {
