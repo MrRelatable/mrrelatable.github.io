@@ -319,15 +319,16 @@
             <div class="contact-form ">
               <form action="https://formsubmit.co/contact@mrrelatable.com" method="POST">
                 <div class="mb-3">
-                  <input type="text" class="form-control contact-input" placeholder="Name" name="Name" required>
+                  <input type="text" class="form-control contact-input" placeholder="* Name" name="Name" required>
                 </div>
                 <div class="mb-3">
-                  <input type="email" class="form-control contact-input" placeholder="Email" name="Email" required>
+                  <input type="email" class="form-control contact-input" placeholder="* Email" name="Email" required>
                 </div>
                 <div class=" mb-4">
-                  <textarea class="form-control contact-textarea" placeholder="Message" rows="4"
-                    name="Message" required></textarea>
+                  <textarea class="form-control contact-textarea" placeholder="* Message" rows="4"
+                    name="message" required></textarea>
                 </div>
+		<p4>* Required</p4>
                 <button type="submit" class="btn send-message-btn">Send Message</button>
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://mrrelatable.com/thankyou">
