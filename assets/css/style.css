@@ -1209,18 +1209,41 @@ a {
 
 #learnMore-header {
   background: url("../images/learn-more-header-bg.svg");
+  header {
+    background-color: black;
+    height: 420px;
+    position: relative; /* Added */
+}    
+
+header .background {
+      opacity: 0.2;
+      background-image: url(http://lorempixel.com/400/200/sports/1);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+
+      height: 100%;  /* editied */
+      top: 0px;     /* added */
+
+      position: absolute;
+      overflow: hidden;
+    }
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 400px;
-  margin-bottom: 0; }
+  height: 100%;
+  margin-bottom: ; }
   #learnMore-header .learnMorePage-header-cont {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 270px;
+    height: 240px;
     text-align: center;
     margin: 0 auto; }
     #learnMore-header .learnMorePage-header-cont h1 {
@@ -1250,7 +1273,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 400px; }
+  height: 100%; }
   @media only screen and (max-width: 992px) {
     .backgrounImage {
       height: 100%; } }
